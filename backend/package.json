@@ -1,0 +1,31 @@
+{
+  "name": "sanitydenoreact",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Heath Weaver <heath.weaver@twigl.it>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.24.0",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.24.0",
+    "@sanity/default-layout": "^2.24.0",
+    "@sanity/default-login": "^2.24.0",
+    "@sanity/desk-tool": "^2.24.0",
+    "@sanity/google-maps-input": "^2.24.0",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^2.2.5",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
+}
